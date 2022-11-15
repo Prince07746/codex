@@ -1,0 +1,199 @@
+
+@media screen and (min-width: 900px){
+    
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('kitenge.jpg');
+    width: 100%;
+}
+.page{
+    width: 100%;
+}
+/* for the navigation page */
+nav{
+    background: rgba(73, 67, 67, 0.8);
+    height: 100px;
+    position: relative;
+    width: 100%;
+}
+.head{
+    width: 100%;
+}
+
+#lst{
+    
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#canvas{
+width: 100px;
+height: 100px;
+ margin-left: 20px;
+margin: 20px;
+margin-top: 10px;
+background: rgba(73, 67, 67, 0.9);
+}
+
+#head-list{
+    margin-left: 20px;
+    margin-top: 3%;
+}
+#head-list #hl{
+    color:aliceblue;
+    display: inline;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+#head-list #hl:hover{
+font-weight: bolder;
+color: yellow;
+
+}
+#main-bar{
+    margin-left: 230px;
+    margin-right: 20px;
+    display: flex;
+}
+ ul #search:hover{
+    background-color: aliceblue;
+ }
+#input-search{
+    position: relative;
+    width: 700px;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: solid gray 1px;
+    background: rgba(73, 67, 67, 0.3);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#input-search:hover{
+    background-color: white;
+    color: black;
+    font-family: cursive;
+}
+.list-menu{
+    margin-top: 40px;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    z-index: 99;
+    display: none;
+    
+}
+#list-menu li{
+background: rgba(73, 67, 67, 0.7);
+border-right: solid red 5px;
+border-top-left-radius: 10px;
+border-bottom: solid gray 1px;
+margin-right: 10px;
+z-index: 1;
+width: 300px;
+height: 18%;
+text-align: right;
+padding-right: 10px;
+padding-bottom: 10px;
+letter-spacing: 0.1mm;
+color: white;
+font-family: sans-serif;
+/* font-family: "Audiowide", sans-serif; */
+}
+#list-menu li:hover{
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+}
+.dispapear{
+    margin-top: 40px;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    z-index: 99;
+    display: block;
+}
+#mb{
+    position: relative;
+    float: right;
+}
+#btn{
+    position: relative;
+    font-size: 30px;
+    width: 40px;
+    color: white;
+    background-color: black;
+    outline: invert;
+}
+#btn:hover{
+    border: solid rgb(49, 238, 49) 1px;
+    border-radius: 5px;
+}
+#bt2{
+    background: rgba(73, 67, 67, 0.3);
+     font-size:medium;
+     border-radius: 30%;
+     border: none;
+}
+#bt2:hover{
+    border: solid rgb(49, 238, 49) 1px;
+}
+/* for the navigation page */
+.body-page{
+    top: 70px;
+    height: auto;
+    position: relative;
+    background: black;
+    z-index: 0;
+    transform: scale(0.9);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-right: solid gray 7px;
+    color: white;
+}
+#login-preemptive{
+    position: relative;
+    float: right;
+    background: rgba(123, 128, 106,.8);
+    width: auto;
+    height: auto;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+.login-preemptive h4{
+    font-family: cursive;
+}
+.login-preemptive button{
+    font-size: larger;
+    margin: 10px;
+    padding: 5px;
+    background: rgba(73, 67, 67, 0.9);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.login-preemptive button:hover{
+    border: solid rgb(49, 238, 49) 1px;
+}
+#cross:hover{
+    color: white;
+    cursor: pointer;
+    border: solid rgb(49, 238, 49) 1px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+/* space between the body and navigation */
+}
+@media screen and (max-width: 699px) {
+    
+}
